@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'Passive Smartphone Sensors for Detecting Psychopathology',
+    description:
+      'A cross-sectional study of 557 participants examining how passive smartphone sensor data can detect major forms of psychopathology across transdiagnostic domains, with implications for symptom monitoring and mobile sensing in psychiatric research.',
+    tags: ['Mobile Sensing', 'Psychopathology', 'Transdiagnostic', 'Digital Mental Health'],
+    link: 'https://doi.org/10.1001/jamanetworkopen.2025.19047',
+  },
+  {
     title: 'Combining Machine Learning and Mixed Effects Methods for Personalized Momentary Affect Prediction ',
     description:
       'A study leveraging intensive longitudinal data and passive sensing to develop personalized models of momentary affect, with implications for just-in-time adaptive interventions in mental health.',
@@ -34,6 +41,16 @@ export default function Projects() {
                   <span key={tag} className="project-card__tag">{tag}</span>
                 ))}
               </div>
+              {project.link && (
+                <a
+                  href={project.link}
+                  className="project-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Paper &rarr;
+                </a>
+              )}
             </article>
           ))}
         </div>

@@ -254,6 +254,21 @@ a {
   border-radius: 100px;
 }
 
+.project-card__link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  border-bottom: 1.5px solid #ddd;
+  padding-bottom: 1px;
+  transition: border-color 0.2s ease;
+}
+
+.project-card__link:hover {
+  border-color: #1a1a1a;
+}
+
 /* ==================== Contact ==================== */
 
 .contact {
