@@ -14,15 +14,9 @@ const projects = [
   {
     title: 'The Impact of Romance Novels on Relationship Expectations and Dating Behaviors',
     description:
-      'A mixed-methods study examining how consuming romance novels influences individuals’ expectations for romantic relationships and their dating behaviors, with implications for understanding media effects on interpersonal dynamics.',
-    tags: ['Media Psychology', 'Mixed Methods', 'Romantic Relationships'],
+      'A study using LLMs to examine how consuming romance novels influences individuals’ expectations for romantic relationships and their dating behaviors, with implications for understanding media effects on interpersonal dynamics.',
+    tags: ['Media Psychology', 'Large Language Models', 'Romantic Relationships'],
   },
-  {
-    title: 'AI and Individual Differences: Examining the Role of Personality in Human-AI Interaction',
-    description:
-      'A study exploring how individual differences in personality traits (e.g., openness, conscientiousness) influence people’s interactions with AI technologies, using a combination of survey data and experimental methods.',
-    tags: ['AI', 'Personality Psychology', 'Human-AI Interaction', 'Experimental Methods'],
-  }
 ]
 
 export default function Projects() {
